@@ -1,0 +1,230 @@
+
+/* -------navbar img----- */
+
+.session-account {
+    display: flex;
+    gap: .5rem;
+    margin-right: .5rem;
+    align-self: flex-end;    
+}
+
+/* -----notifications---- */
+
+.session-account div:first-child  {
+    position: relative;
+} 
+
+.session-account div:first-child i {
+    font-size: .85rem;
+    position: relative;
+}
+
+.session-account div:first-child .bell-container{
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(230, 230, 230);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.session-account div:first-child .session-status {
+    width: .7rem;
+    height: .7rem;
+    border-radius: 50%;
+    border: solid .1rem white;
+    background-color: rgb(117, 80, 254);
+
+    right: .2rem;
+    top: .2rem;
+    position: absolute;
+}
+
+/* ----user--- */
+.session-account div:last-child img {
+    border-radius: 50%;
+    height: 2.5rem;
+    position: relative;
+}
+
+
+.session-account div:last-child  {
+    position: relative;
+} 
+
+
+.session-account div:last-child .session-status {
+    width: .7rem;
+    height: .7rem;
+    border-radius: 50%;
+    border: solid .1rem white;
+    background-color: rgb(26, 203, 152);
+
+    right: .2rem;
+    bottom: .2rem;
+    position: absolute;
+}
+
+
+
+/* -------jumbotron----- */
+
+#jumbotron  .row{
+    background-color: rgb(112, 83, 249);
+}
+
+#jumbotron span {
+    color: white;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+#jumbotron p {
+    color: rgb(171, 145, 255);
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+#jumbotron .button .btn:first-child {
+    background-color: rgb(123, 202, 154);
+}
+
+
+
+/* -----gral info---- */
+
+#generalInfo i {
+    font-size: 1rem;
+    color: rgb(194, 174, 147);
+}
+
+#generalInfo .icon-container {
+    width: 2.7rem;
+    height: 2.7rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    margin-right: .7rem;
+
+    
+    background-color: rgb(249, 238, 216) ;
+
+}
+
+#generalInfo span:first-child{
+    font-weight: 700;
+}
+
+#generalInfo span:last-child{
+    color: rgb(146,145,150);
+}
+
+
+/* -----------------cardsWrapper---------- */
+.cards-wrapper {
+    display: flex;
+    gap:.5rem
+}
+
+
+
+
+
+
+/* -----------------card---------- */
+
+.card-body:first-of-type {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    padding-bottom: 0rem;
+}
+
+.card-body:first-of-type h6 {
+    font-size: 1.1rem;
+    flex-wrap: nowrap;
+
+}
+
+.card-info-icons {
+    color: grey;
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: .5rem;
+    margin-top: .5rem;
+
+}
+
+.card-info-icons i:last-of-type{
+    color: rgb(171, 145, 255);
+}
+
+
+
+/* ---------------------- */
+.card-info div:first-of-type{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+}
+
+.stars i {
+    color: orange;
+    font-size: .7rem;
+}
+
+.card-info div:first-of-type > span:first-of-type {
+    color: orange;
+}
+
+.card-info div:first-of-type > span:last-of-type {
+    color: grey;
+    font-size: .85rem;
+}
+
+/* ---------------------- */
+
+.card-info div:nth-of-type(2)  {
+    margin-top: .5rem;
+}
+.card-info div:nth-of-type(2) span:first-of-type {
+    font-weight: 600;
+}
+
+.card-info div:nth-of-type(2) span:last-of-type {
+    color: grey;
+    font-size: .85rem;
+    text-decoration: line-through;
+}
+/* ---------------------- */
+
+.teacher {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.card-bottom span, i {
+    color: grey;
+    font-size: .9rem;
+}
+
+.card-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: solid 1px rgb(229, 229, 229);
+}
+
+.card-bottom img {
+    border-radius: 50%;
+    height: 2rem;  
+}
+
