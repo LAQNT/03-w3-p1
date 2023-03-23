@@ -71,8 +71,9 @@
 
 /* -------jumbotron----- */
 
-#jumbotron  .row{
+#jumbotron {
     background-color: rgb(112, 83, 249);
+    position: relative;
 }
 
 #jumbotron span {
@@ -93,7 +94,12 @@
 
 
 
+
+
 /* -----gral info---- */
+#generalInfo {
+    background-color: white;
+}
 
 #generalInfo i {
     font-size: 1rem;
@@ -146,6 +152,11 @@
 
 .card-body:first-of-type h6 {
     font-size: 1.1rem;
+}
+.carousel
+
+.card-title {
+    display: flex;
     flex-wrap: nowrap;
 
 }
@@ -155,7 +166,6 @@
     font-size: .9rem;
     display: flex;
     align-items: center;
-    flex-wrap: nowrap;
     gap: .5rem;
     margin-top: .5rem;
 
@@ -228,3 +238,18 @@
     height: 2rem;  
 }
 
+/* -----footer---- */
+
+
+.footer-info {
+    display: flex;
+    justify-content:space-between;
+    font-size: .8rem;
+    color: gray;
+}
+
+.footer-info > div {
+    display: flex;
+    justify-content: space-around;
+    gap: 1.5rem;
+}

@@ -16,7 +16,7 @@
 
     <title>Web Students</title>
 </head>
-<body>
+<body class="bg-light">
 
     <!-- ------------navBar------------ -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -65,20 +65,22 @@
     <section id="jumbotron">
 
         <div class="container-fluid">
+          <div class="container">
             <div class="row">
 
-                <div class="col-lg-6 col-xs-12 d-flex flex-column p-5 justify-content-center">
-                    <span>Welcome Web Students!</span>
-                    <p>Hand-picked instructor and expertly crafted courses, designed for the modern students and entrepreneur.</p>
-                    <div class="buttons">
-                        <button type="button" class="btn btn-success">Browse Courses</button>
-                        <button type="button" class="btn btn-light">Are You Instructor?</button>
-                    </div>
+                <div class="col-lg-6 col-xs-12 d-flex flex-column py-5 justify-content-center">
+                  <span>Welcome Web Students!</span>
+                  <p>Hand-picked instructor and expertly crafted courses, designed for the modern students and entrepreneur.</p>
+                  <div class="buttons">
+                    <button type="button" class="btn btn-success">Browse Courses</button>
+                    <button type="button" class="btn btn-light">Are You Instructor?</button>
+                  </div>
                 </div>
-
+                
                 <div class="col-lg-6 col-xs-12 d-flex align-items-end">
-                    <img src="assets/hero-img.png" class="img-fluid">
+                  <img src="assets/hero-img.png" class="img-fluid col-xs-12">
                 </div>
+              </div>
             </div>
         </div>
 
@@ -90,10 +92,10 @@
     <section id="generalInfo">
 
         <div class="container-fluid ">
-            <div class="container">
+            <div class="container ">
 
 
-                <div class="row d-flex justify-content-lg-center flex-xs-column py-4 gy-4">
+                <div class="row d-flex justify-content-lg-center flex-xs-column py-4 gy-4" >
                     
                     <!-- ----column 1----- -->
                     <div class="col-lg-4 col-xs-12 d-flex  mb-0">
@@ -145,8 +147,8 @@
     
     <!-- ------------recomended------------ -->
 
-    <section>   
-            <div class="container">
+    <section class="pt-1 border-top">   
+            <div class="container mt-5 ">
                 <div class="row my-3">
                   <h4>Recommended to you</h4>
                 </div>
@@ -156,15 +158,15 @@
                     <div id="Recommended" class="carousel carousel-dark slide">
                       <div class="carousel-inner">
                         
-                        <div class="carousel-item active">
+                        <div class="carousel-item active ">
                           <div class="cards-wrapper">
                             <!-- ----------1-------- -->
-                            <div class="card" style="width: 18rem;">
+                            <div class="card col-sm-6 col-lg-3" style="width: 18rem;">
                               <img src="assets/course-graphql.jpg" class="card-img-top" alt="course-1">
         
                               
                               <div class="card-body">
-                                <h6 class="card-title">GraphQL: introduction to grapghQL for begginners</h6>
+                                <h6 class="card-title ">GraphQL: introduction to grapghQL for begginners</h6>
         
                                 <div class="card-info-icons">
                                   <i class="bi bi-clock"></i>                                
@@ -204,7 +206,7 @@
                               </div>
                             </div>
                             <!-- ----------2-------- -->
-                            <div class="card" style="width: 18rem;">
+                            <div class="card col-sm-6 col-lg-3" style="width: 18rem;">
                               <img src="assets/course-javascript.jpg" class="card-img-top" alt="course-2">
         
                               
@@ -249,7 +251,7 @@
                               </div>
                             </div>  
                             <!-- ----------3-------- -->
-                            <div class="card" style="width: 18rem;">
+                            <div class="card col-sm-6 col-lg-3" style="width: 18rem;">
                               <img src="assets/course-node.jpg" class="card-img-top" alt="course-3">
         
                               
@@ -294,7 +296,7 @@
                               </div>
                             </div>  
                             <!-- ----------4-------- -->
-                            <div class="card" style="width: 18rem;">
+                            <div class="card col-sm-6 col-lg-3" style="width: 18rem;">
                               <img src="assets/course-laravel.jpg" class="card-img-top" alt="course-4">
         
                               
@@ -526,9 +528,6 @@
                                 </div>
                                 <i class="bi bi-bookmark"></i>
                               </div>
-                            <div>                                                                                            
-        
-                          </div>
                             </div>
                           </div>                     
                         </div>
@@ -549,12 +548,826 @@
 
 
     </section>
-
-
-    <!-- ------------mostPopular------------ -->
-    <!-- ------------trending------------ -->
     
+    <!-- ------------mostPopular------------ -->
+    <section class="pt-5">   
+            <div class="container mt-5 ">
+                <div class="row my-3">
+                  <h4>Most Popular</h4>
+                </div>
 
+                <div class="row">
+                    <!-- -------carousel------ -->
+                    <div id="Recommended" class="carousel carousel-dark slide">
+                      <div class="carousel-inner">
+                        
+                        <div class="carousel-item active ">
+                          <div class="cards-wrapper">
+                            <!-- ----------1-------- -->
+                            <div class="card col-sm-6 col-lg-3" style="width: 18rem;">
+                              <img src="assets/course-graphql.jpg" class="card-img-top" alt="course-1">
+        
+                              
+                              <div class="card-body">
+                                <h6 class="card-title ">GraphQL: introduction to grapghQL for begginners</h6>
+        
+                                <div class="card-info-icons">
+                                  <i class="bi bi-clock"></i>                                
+                                  <span>2h 40m</span>
+                                  <i class="bi bi-bar-chart-fill"></i>                                
+                                  <span>Advanced</span>
+                                </div>
+        
+                              </div>
+        
+                              <div class="card-body card-info">
+                                <!-- --------stars------ -->
+                                <div>
+                                  <div class="stars">
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                  </div>
+                                  <span>2.5</span>
+                                  <span>(1,500)</span>
+                                </div>
+                                <!-- --------price------ -->
+                                <div>
+                                  <span>$500</span>
+                                  <span>$600</span>
+                                </div>
+                              </div>
+                              <!-- --------teacher------ -->
+                              <div class="card-body card-bottom">
+                                <div class="teacher">
+                                  <img src="assets/avatar-5.jpg">
+                                  <span>Brooklyn Simmons</span>
+                                </div>
+                                <i class="bi bi-bookmark"></i>
+                              </div>
+                            </div>
+                            <!-- ----------2-------- -->
+                            <div class="card col-sm-6 col-lg-3" style="width: 18rem;">
+                              <img src="assets/course-javascript.jpg" class="card-img-top" alt="course-2">
+        
+                              
+                              <div class="card-body">
+                                <h6 class="card-title">A Complete Beginner's Guide to JavaScript</h6>
+        
+                                <div class="card-info-icons">
+                                  <i class="bi bi-clock"></i>                                
+                                  <span>4h 10m</span>
+                                  <i class="bi bi-bar-chart-fill"></i>                                
+                                  <span>Advanced</span>
+                                </div>
+        
+                              </div>
+        
+                              <div class="card-body card-info">
+                                <!-- --------stars------ -->
+                                <div>
+                                  <div class="stars">
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                  </div>
+                                  <span>3.5</span>
+                                  <span>(7,500)</span>
+                                </div>
+                                <!-- --------price------ -->
+                                <div>
+                                  <span>$700</span>
+                                  <span>$850</span>
+                                </div>
+                              </div>
+                              <!-- --------teacher------ -->
+                              <div class="card-body card-bottom">
+                                <div class="teacher">
+                                  <img src="assets/avatar-1.jpg">
+                                  <span>Jenny Wilson</span>
+                                </div>
+                                <i class="bi bi-bookmark"></i>
+                              </div>
+                            </div>  
+                            <!-- ----------3-------- -->
+                            <div class="card col-sm-6 col-lg-3" style="width: 18rem;">
+                              <img src="assets/course-node.jpg" class="card-img-top" alt="course-3">
+        
+                              
+                              <div class="card-body">
+                                <h6 class="card-title">Beginning Node.js, Express & MongoDB Development</h6>
+        
+                                <div class="card-info-icons">
+                                  <i class="bi bi-clock"></i>                                
+                                  <span>2h 00m</span>
+                                  <i class="bi bi-bar-chart-fill"></i>                                
+                                  <span>Intermediate</span>
+                                </div>
+        
+                              </div>
+        
+                              <div class="card-body card-info">
+                                <!-- --------stars------ -->
+                                <div>
+                                  <div class="stars">
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                  </div>
+                                  <span>4.0</span>
+                                  <span>(15,700)</span>
+                                </div>
+                                <!-- --------price------ -->
+                                <div>
+                                  <span>$800</span>
+                                  <span>$950</span>
+                                </div>
+                              </div>
+                              <!-- --------teacher------ -->
+                              <div class="card-body card-bottom">
+                                <div class="teacher">
+                                  <img src="assets/avatar-3.jpg">
+                                  <span>Sina Ray</span>
+                                </div>
+                                <i class="bi bi-bookmark"></i>
+                              </div>
+                            </div>  
+                            <!-- ----------4-------- -->
+                            <div class="card col-sm-6 col-lg-3" style="width: 18rem;">
+                              <img src="assets/course-laravel.jpg" class="card-img-top" alt="course-4">
+        
+                              
+                              <div class="card-body">
+                                <h6 class="card-title">Laravel: The Ultimate Beginner's Guide to Learn</h6>
+        
+                                <div class="card-info-icons">
+                                  <i class="bi bi-clock"></i>                                
+                                  <span>1h 00m</span>
+                                  <i class="bi bi-bar-chart-fill"></i>                                
+                                  <span>Beginner</span>
+                                </div>
+        
+                              </div>
+        
+                              <div class="card-body card-info">
+                                <!-- --------stars------ -->
+                                <div>
+                                  <div class="stars">
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                  </div>
+                                  <span>4.5</span>
+                                  <span>(2,500)</span>
+                                </div>
+                                <!-- --------price------ -->
+                                <div>
+                                  <span>$170</span>
+                                  <span>$220</span>
+                                </div>
+                              </div>
+                              <!-- --------teacher------ -->
+                              <div class="card-body card-bottom">
+                                <div class="teacher">
+                                  <img src="assets/avatar-7.jpg">
+                                  <span>Sobo Rikhan</span>
+                                </div>
+                                <i class="bi bi-bookmark"></i>
+                              </div>
+                            <div>                                                                                            
+        
+                          </div>
+                            </div>
+                          </div>  
+                        </div>
+
+
+                        <div class="carousel-item" >
+                          <div class="cards-wrapper" >
+                            <!-- ----------3-------- -->
+                            <div class="card" style="width: 18rem;">
+                              <img src="assets/course-graphql.jpg" class="card-img-top" alt="course-1">
+        
+                              
+                              <div class="card-body">
+                                <h6 class="card-title">GraphQL: introduction to grapghQL for begginners</h6>
+        
+                                <div class="card-info-icons">
+                                  <i class="bi bi-clock"></i>                                
+                                  <span>2h 40m</span>
+                                  <i class="bi bi-bar-chart-fill"></i>                                
+                                  <span>Advanced</span>
+                                </div>
+        
+                              </div>
+        
+                              <div class="card-body card-info">
+                                <!-- --------stars------ -->
+                                <div>
+                                  <div class="stars">
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                  </div>
+                                  <span>2.5</span>
+                                  <span>(1,500)</span>
+                                </div>
+                                <!-- --------price------ -->
+                                <div>
+                                  <span>$500</span>
+                                  <span>$600</span>
+                                </div>
+                              </div>
+                              <!-- --------teacher------ -->
+                              <div class="card-body card-bottom">
+                                <div class="teacher">
+                                  <img src="assets/avatar-5.jpg">
+                                  <span>Brooklyn Simmons</span>
+                                </div>
+                                <i class="bi bi-bookmark"></i>
+                              </div>
+                            </div>
+                            <!-- ----------4-------- -->
+                            <div class="card" style="width: 18rem;">
+                              <img src="assets/course-javascript.jpg" class="card-img-top" alt="course-2">
+        
+                              
+                              <div class="card-body">
+                                <h6 class="card-title">A Complete Beginner's Guide to JavaScript</h6>
+        
+                                <div class="card-info-icons">
+                                  <i class="bi bi-clock"></i>                                
+                                  <span>4h 10m</span>
+                                  <i class="bi bi-bar-chart-fill"></i>                                
+                                  <span>Advanced</span>
+                                </div>
+        
+                              </div>
+        
+                              <div class="card-body card-info">
+                                <!-- --------stars------ -->
+                                <div>
+                                  <div class="stars">
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                  </div>
+                                  <span>3.5</span>
+                                  <span>(7,500)</span>
+                                </div>
+                                <!-- --------price------ -->
+                                <div>
+                                  <span>$700</span>
+                                  <span>$850</span>
+                                </div>
+                              </div>
+                              <!-- --------teacher------ -->
+                              <div class="card-body card-bottom">
+                                <div class="teacher">
+                                  <img src="assets/avatar-1.jpg">
+                                  <span>Jenny Wilson</span>
+                                </div>
+                                <i class="bi bi-bookmark"></i>
+                              </div>
+                            </div>  
+                            <!-- ----------5-------- -->
+                            <div class="card" style="width: 18rem;">
+                              <img src="assets/course-node.jpg" class="card-img-top" alt="course-3">
+        
+                              
+                              <div class="card-body">
+                                <h6 class="card-title">Beginning Node.js, Express & MongoDB Development</h6>
+        
+                                <div class="card-info-icons">
+                                  <i class="bi bi-clock"></i>                                
+                                  <span>2h 00m</span>
+                                  <i class="bi bi-bar-chart-fill"></i>                                
+                                  <span>Intermediate</span>
+                                </div>
+        
+                              </div>
+        
+                              <div class="card-body card-info">
+                                <!-- --------stars------ -->
+                                <div>
+                                  <div class="stars">
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                  </div>
+                                  <span>4.0</span>
+                                  <span>(15,700)</span>
+                                </div>
+                                <!-- --------price------ -->
+                                <div>
+                                  <span>$800</span>
+                                  <span>$950</span>
+                                </div>
+                              </div>
+                              <!-- --------teacher------ -->
+                              <div class="card-body card-bottom">
+                                <div class="teacher">
+                                  <img src="assets/avatar-3.jpg">
+                                  <span>Sina Ray</span>
+                                </div>
+                                <i class="bi bi-bookmark"></i>
+                              </div>
+                            </div>  
+                            <!-- ----------6-------- -->
+                            <div class="card" style="width: 18rem;">
+                              <img src="assets/course-css.jpg" class="card-img-top" alt="course-4">
+        
+                              
+                              <div class="card-body">
+                                <h6 class="card-title">Laravel: The Ultimate Beginner's Guide to Learn</h6>
+        
+                                <div class="card-info-icons">
+                                  <i class="bi bi-clock"></i>                                
+                                  <span>1h 00m</span>
+                                  <i class="bi bi-bar-chart-fill"></i>                                
+                                  <span>Beginner</span>
+                                </div>
+        
+                              </div>
+        
+                              <div class="card-body card-info">
+                                <!-- --------stars------ -->
+                                <div>
+                                  <div class="stars">
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                    <i class="bi bi-star"></i>
+                                  </div>
+                                  <span>4.5</span>
+                                  <span>(2,500)</span>
+                                </div>
+                                <!-- --------price------ -->
+                                <div>
+                                  <span>$170</span>
+                                  <span>$220</span>
+                                </div>
+                              </div>
+                              <!-- --------teacher------ -->
+                              <div class="card-body card-bottom">
+                                <div class="teacher">
+                                  <img src="assets/avatar-7.jpg">
+                                  <span>Sobo Rikhan</span>
+                                </div>
+                                <i class="bi bi-bookmark"></i>
+                              </div>
+                            </div>
+                          </div>                     
+                        </div>
+                       </div>
+
+                      <button class="carousel-control-prev" type="button" data-bs-target="#Recommended" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#Recommended" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                  </div>
+                              
+            </div>
+          </div>
+
+
+    </section>
+    <!-- ------------trending------------ -->
+    <section class="py-5">   
+      <div class="container mt-5 ">
+          <div class="row my-3">
+            <h4>Trending</h4>
+          </div>
+
+          <div class="row">
+              <!-- -------carousel------ -->
+              <div id="Recommended" class="carousel carousel-dark slide">
+                <div class="carousel-inner">
+                  
+                  <div class="carousel-item active ">
+                    <div class="cards-wrapper">
+                      <!-- ----------1-------- -->
+                      <div class="card col-sm-6 col-lg-3" style="width: 18rem;">
+                        <img src="assets/course-graphql.jpg" class="card-img-top" alt="course-1">
+  
+                        
+                        <div class="card-body">
+                          <h6 class="card-title ">GraphQL: introduction to grapghQL for begginners</h6>
+  
+                          <div class="card-info-icons">
+                            <i class="bi bi-clock"></i>                                
+                            <span>2h 40m</span>
+                            <i class="bi bi-bar-chart-fill"></i>                                
+                            <span>Advanced</span>
+                          </div>
+  
+                        </div>
+  
+                        <div class="card-body card-info">
+                          <!-- --------stars------ -->
+                          <div>
+                            <div class="stars">
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                            </div>
+                            <span>2.5</span>
+                            <span>(1,500)</span>
+                          </div>
+                          <!-- --------price------ -->
+                          <div>
+                            <span>$500</span>
+                            <span>$600</span>
+                          </div>
+                        </div>
+                        <!-- --------teacher------ -->
+                        <div class="card-body card-bottom">
+                          <div class="teacher">
+                            <img src="assets/avatar-5.jpg">
+                            <span>Brooklyn Simmons</span>
+                          </div>
+                          <i class="bi bi-bookmark"></i>
+                        </div>
+                      </div>
+                      <!-- ----------2-------- -->
+                      <div class="card col-sm-6 col-lg-3" style="width: 18rem;">
+                        <img src="assets/course-javascript.jpg" class="card-img-top" alt="course-2">
+  
+                        
+                        <div class="card-body">
+                          <h6 class="card-title">A Complete Beginner's Guide to JavaScript</h6>
+  
+                          <div class="card-info-icons">
+                            <i class="bi bi-clock"></i>                                
+                            <span>4h 10m</span>
+                            <i class="bi bi-bar-chart-fill"></i>                                
+                            <span>Advanced</span>
+                          </div>
+  
+                        </div>
+  
+                        <div class="card-body card-info">
+                          <!-- --------stars------ -->
+                          <div>
+                            <div class="stars">
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                            </div>
+                            <span>3.5</span>
+                            <span>(7,500)</span>
+                          </div>
+                          <!-- --------price------ -->
+                          <div>
+                            <span>$700</span>
+                            <span>$850</span>
+                          </div>
+                        </div>
+                        <!-- --------teacher------ -->
+                        <div class="card-body card-bottom">
+                          <div class="teacher">
+                            <img src="assets/avatar-1.jpg">
+                            <span>Jenny Wilson</span>
+                          </div>
+                          <i class="bi bi-bookmark"></i>
+                        </div>
+                      </div>  
+                      <!-- ----------3-------- -->
+                      <div class="card col-sm-6 col-lg-3" style="width: 18rem;">
+                        <img src="assets/course-node.jpg" class="card-img-top" alt="course-3">
+  
+                        
+                        <div class="card-body">
+                          <h6 class="card-title">Beginning Node.js, Express & MongoDB Development</h6>
+  
+                          <div class="card-info-icons">
+                            <i class="bi bi-clock"></i>                                
+                            <span>2h 00m</span>
+                            <i class="bi bi-bar-chart-fill"></i>                                
+                            <span>Intermediate</span>
+                          </div>
+  
+                        </div>
+  
+                        <div class="card-body card-info">
+                          <!-- --------stars------ -->
+                          <div>
+                            <div class="stars">
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                            </div>
+                            <span>4.0</span>
+                            <span>(15,700)</span>
+                          </div>
+                          <!-- --------price------ -->
+                          <div>
+                            <span>$800</span>
+                            <span>$950</span>
+                          </div>
+                        </div>
+                        <!-- --------teacher------ -->
+                        <div class="card-body card-bottom">
+                          <div class="teacher">
+                            <img src="assets/avatar-3.jpg">
+                            <span>Sina Ray</span>
+                          </div>
+                          <i class="bi bi-bookmark"></i>
+                        </div>
+                      </div>  
+                      <!-- ----------4-------- -->
+                      <div class="card col-sm-6 col-lg-3" style="width: 18rem;">
+                        <img src="assets/course-laravel.jpg" class="card-img-top" alt="course-4">
+  
+                        
+                        <div class="card-body">
+                          <h6 class="card-title">Laravel: The Ultimate Beginner's Guide to Learn</h6>
+  
+                          <div class="card-info-icons">
+                            <i class="bi bi-clock"></i>                                
+                            <span>1h 00m</span>
+                            <i class="bi bi-bar-chart-fill"></i>                                
+                            <span>Beginner</span>
+                          </div>
+  
+                        </div>
+  
+                        <div class="card-body card-info">
+                          <!-- --------stars------ -->
+                          <div>
+                            <div class="stars">
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                            </div>
+                            <span>4.5</span>
+                            <span>(2,500)</span>
+                          </div>
+                          <!-- --------price------ -->
+                          <div>
+                            <span>$170</span>
+                            <span>$220</span>
+                          </div>
+                        </div>
+                        <!-- --------teacher------ -->
+                        <div class="card-body card-bottom">
+                          <div class="teacher">
+                            <img src="assets/avatar-7.jpg">
+                            <span>Sobo Rikhan</span>
+                          </div>
+                          <i class="bi bi-bookmark"></i>
+                        </div>
+                      <div>                                                                                            
+  
+                    </div>
+                      </div>
+                    </div>  
+                  </div>
+
+
+                  <div class="carousel-item" >
+                    <div class="cards-wrapper" >
+                      <!-- ----------3-------- -->
+                      <div class="card" style="width: 18rem;">
+                        <img src="assets/course-graphql.jpg" class="card-img-top" alt="course-1">
+  
+                        
+                        <div class="card-body">
+                          <h6 class="card-title">GraphQL: introduction to grapghQL for begginners</h6>
+  
+                          <div class="card-info-icons">
+                            <i class="bi bi-clock"></i>                                
+                            <span>2h 40m</span>
+                            <i class="bi bi-bar-chart-fill"></i>                                
+                            <span>Advanced</span>
+                          </div>
+  
+                        </div>
+  
+                        <div class="card-body card-info">
+                          <!-- --------stars------ -->
+                          <div>
+                            <div class="stars">
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                            </div>
+                            <span>2.5</span>
+                            <span>(1,500)</span>
+                          </div>
+                          <!-- --------price------ -->
+                          <div>
+                            <span>$500</span>
+                            <span>$600</span>
+                          </div>
+                        </div>
+                        <!-- --------teacher------ -->
+                        <div class="card-body card-bottom">
+                          <div class="teacher">
+                            <img src="assets/avatar-5.jpg">
+                            <span>Brooklyn Simmons</span>
+                          </div>
+                          <i class="bi bi-bookmark"></i>
+                        </div>
+                      </div>
+                      <!-- ----------4-------- -->
+                      <div class="card" style="width: 18rem;">
+                        <img src="assets/course-javascript.jpg" class="card-img-top" alt="course-2">
+  
+                        
+                        <div class="card-body">
+                          <h6 class="card-title">A Complete Beginner's Guide to JavaScript</h6>
+  
+                          <div class="card-info-icons">
+                            <i class="bi bi-clock"></i>                                
+                            <span>4h 10m</span>
+                            <i class="bi bi-bar-chart-fill"></i>                                
+                            <span>Advanced</span>
+                          </div>
+  
+                        </div>
+  
+                        <div class="card-body card-info">
+                          <!-- --------stars------ -->
+                          <div>
+                            <div class="stars">
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                            </div>
+                            <span>3.5</span>
+                            <span>(7,500)</span>
+                          </div>
+                          <!-- --------price------ -->
+                          <div>
+                            <span>$700</span>
+                            <span>$850</span>
+                          </div>
+                        </div>
+                        <!-- --------teacher------ -->
+                        <div class="card-body card-bottom">
+                          <div class="teacher">
+                            <img src="assets/avatar-1.jpg">
+                            <span>Jenny Wilson</span>
+                          </div>
+                          <i class="bi bi-bookmark"></i>
+                        </div>
+                      </div>  
+                      <!-- ----------5-------- -->
+                      <div class="card" style="width: 18rem;">
+                        <img src="assets/course-node.jpg" class="card-img-top" alt="course-3">
+  
+                        
+                        <div class="card-body">
+                          <h6 class="card-title">Beginning Node.js, Express & MongoDB Development</h6>
+  
+                          <div class="card-info-icons">
+                            <i class="bi bi-clock"></i>                                
+                            <span>2h 00m</span>
+                            <i class="bi bi-bar-chart-fill"></i>                                
+                            <span>Intermediate</span>
+                          </div>
+  
+                        </div>
+  
+                        <div class="card-body card-info">
+                          <!-- --------stars------ -->
+                          <div>
+                            <div class="stars">
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                            </div>
+                            <span>4.0</span>
+                            <span>(15,700)</span>
+                          </div>
+                          <!-- --------price------ -->
+                          <div>
+                            <span>$800</span>
+                            <span>$950</span>
+                          </div>
+                        </div>
+                        <!-- --------teacher------ -->
+                        <div class="card-body card-bottom">
+                          <div class="teacher">
+                            <img src="assets/avatar-3.jpg">
+                            <span>Sina Ray</span>
+                          </div>
+                          <i class="bi bi-bookmark"></i>
+                        </div>
+                      </div>  
+                      <!-- ----------6-------- -->
+                      <div class="card" style="width: 18rem;">
+                        <img src="assets/course-css.jpg" class="card-img-top" alt="course-4">
+  
+                        
+                        <div class="card-body">
+                          <h6 class="card-title">Laravel: The Ultimate Beginner's Guide to Learn</h6>
+  
+                          <div class="card-info-icons">
+                            <i class="bi bi-clock"></i>                                
+                            <span>1h 00m</span>
+                            <i class="bi bi-bar-chart-fill"></i>                                
+                            <span>Beginner</span>
+                          </div>
+  
+                        </div>
+  
+                        <div class="card-body card-info">
+                          <!-- --------stars------ -->
+                          <div>
+                            <div class="stars">
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                              <i class="bi bi-star"></i>
+                            </div>
+                            <span>4.5</span>
+                            <span>(2,500)</span>
+                          </div>
+                          <!-- --------price------ -->
+                          <div>
+                            <span>$170</span>
+                            <span>$220</span>
+                          </div>
+                        </div>
+                        <!-- --------teacher------ -->
+                        <div class="card-body card-bottom">
+                          <div class="teacher">
+                            <img src="assets/avatar-7.jpg">
+                            <span>Sobo Rikhan</span>
+                          </div>
+                          <i class="bi bi-bookmark"></i>
+                        </div>
+                      </div>
+                    </div>                     
+                  </div>
+                 </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#Recommended" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Recommended" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+                        
+      </div>
+    </div>
+
+
+    </section>    
+
+    <footer class=" py-2 border-top mt-5">
+      <div class="container ">
+
+        <div class="footer-info">
+          <span>2022 Geeks. All Rights Reserved.</span>
+          <div>
+            <span>Privacy</span>
+            <span>Terms</span>
+            <span>Feedback</span>
+            <span>Support</span>
+          </div>
+        </div>
+      </div>
+    </footer>
 
     
 </body>
