@@ -8,6 +8,22 @@
     align-self: flex-end;    
 }
 
+.session-account button:hover {
+    background-color: transparent;
+    border: transparent;
+    translate: 0;
+}
+
+
+/* -----navBar------ */
+li a:link {
+    color: black;
+    font-size: .85rem;
+}
+
+
+
+
 /* -----notifications---- */
 
 .session-account div:first-child  {
@@ -30,7 +46,7 @@
     justify-content: center;
 }
 
-.session-account div:first-child .session-status {
+.notifications .session-status {
     width: .7rem;
     height: .7rem;
     border-radius: 50%;
@@ -50,19 +66,19 @@
 }
 
 
-.session-account div:last-child  {
+.user-info{
     position: relative;
 } 
 
 
-.session-account div:last-child .session-status {
+.user-info .session-status {
     width: .7rem;
     height: .7rem;
     border-radius: 50%;
     border: solid .1rem white;
     background-color: rgb(26, 203, 152);
 
-    right: .2rem;
+    right: .1rem;
     bottom: .2rem;
     position: absolute;
 }
@@ -88,8 +104,24 @@
     font-size: 1.4rem;
 }
 
-#jumbotron .button .btn:first-child {
-    background-color: rgb(123, 202, 154);
+/* ---buttons */
+#jumbotron button {
+    font-size: .85rem;
+    padding: .5rem 2rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+#jumbotron button:first-of-type {
+    background-color: rgb(26, 203, 152);
+}
+#jumbotron button:first-of-type:hover {
+    background-color: rgb(22, 165, 127);
+}
+
+#jumbotron button:last-of-type {
+    font-size: .85rem;
+    padding: .5rem 1.5rem;
 }
 
 
@@ -123,10 +155,12 @@
 
 #generalInfo span:first-child{
     font-weight: 700;
+    font-size: .85rem;
 }
 
 #generalInfo span:last-child{
     color: rgb(146,145,150);
+    font-size: .85rem;
 }
 
 
@@ -135,11 +169,6 @@
     display: flex;
     gap:.5rem
 }
-
-
-
-
-
 
 /* -----------------card---------- */
 
